@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.阅1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color.按钮默认色 -->
+        <item name="colorPrimary">@color/background2</item>
+        <!-- Secondary brand color.复制默认色 -->
+        <item name="colorSecondary">@color/background2</item>
+        <!-- 我在 popupMenu 用的背景色-->
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- 背景色 -->
+        <item name="colorSurface">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!-- 设置状态栏 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <!-- 设置导航栏 -->
+        <item name="android:navigationBarColor">?android:windowBackground</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- 设置字体 -->
+        <item name="android:textColor">@color/font</item>
+        <item name="android:textSize">19sp</item>
+        <!-- colorEdgeEffect -->
+        <item name="android:colorEdgeEffect">?android:windowBackground</item>
+        <!-- 设置 materialComponents 主题按钮-->
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+    </style>
+
+    <style name="Theme.阅2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color.按钮默认色 -->
+        <item name="colorPrimary">@color/first_accent</item>
+        <!-- Secondary brand color.复制默认色 -->
+        <item name="colorSecondary">@color/first_accent</item>
+        <!-- 我在 popupMenu 用的背景色-->
+        <item name="colorOnSecondary">@color/background2</item>
+        <!-- 背景色 -->
+        <item name="colorSurface">@color/background2</item>
+        <item name="android:windowBackground">@color/background2</item>
+        <!-- 设置状态栏 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <!-- 设置导航栏颜色 -->
+        <item name="android:navigationBarColor">?android:windowBackground</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- 设置字体 -->
+        <item name="android:textColor">@color/font2</item>
+        <item name="android:textSize">19sp</item>
+        <!-- colorEdgeEffect -->
+        <item name="android:colorEdgeEffect">?android:windowBackground</item>
+        <!-- 设置 materialComponents 主题按钮-->
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+
+    </style>
+
+    <style name="Theme.阅3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color.按钮默认色 -->
+        <item name="colorPrimary">@color/second_accent</item>
+        <!-- Secondary brand color.复制默认色 -->
+        <item name="colorSecondary">@color/second_accent</item>
+        <!-- 我在 popupMenu 用的背景色-->
+        <item name="colorOnSecondary">@color/background3</item>
+        <!-- 背景色 -->
+        <item name="colorSurface">@color/background3</item>
+        <item name="android:windowBackground">@color/background3</item>
+        <!-- 设置状态栏 -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <!-- 设置导航栏 -->
+        <item name="android:navigationBarColor">?android:windowBackground</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!-- 设置字体 -->
+        <item name="android:textColor">@color/font3</item>
+        <item name="android:textSize">19sp</item>
+        <!-- colorEdgeEffect -->
+        <item name="android:colorEdgeEffect">?android:windowBackground</item>
+        <!-- 设置 materialComponents 主题按钮-->
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+    </style>
+
+</resources>

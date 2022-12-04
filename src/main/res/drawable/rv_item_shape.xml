@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="2dp"
+        android:right="2dp"
+        android:bottom="2dp"
+        android:top="2dp">
+        <shape >
+            <!-- 设置边框内的颜色 -->
+            <solid android:color="?colorOnSecondary"/>
+            <!-- 设置组件边框 -->
+            <stroke android:width="0dp"/>
+            <!-- 设置四角弧度 -->
+            <corners android:radius="25dp"/>
+        </shape>
+    </item>
+</layer-list>

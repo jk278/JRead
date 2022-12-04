@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.JRead.MainActivity"
+    android:id="@+id/drawer_layout">
+
+    <!-- 此处一坑：不能fragmentContainerView （不能包括非fragment视图） -->
+    <!-- 改 fragmentContainerView 后不能直接找到 nav_main.xml controller 但是又找不到 nav_main.xml host fragment -->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/appbar_main"
+        android:name="com.JRead.ui.MainAppbarFragment"
+        tools:layout="@layout/fgt_appbar_main"
+        android:tag="appbar"/>
+
+    <!-- 左侧边栏 -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_slider_start"
+        android:name="com.JRead.ui.StartSliderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"/>
+
+    <!-- 右侧边栏 -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_slider_end"
+        android:name="com.JRead.ui.EndSliderFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

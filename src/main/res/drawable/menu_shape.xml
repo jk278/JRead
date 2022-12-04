@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="3dp"
+        android:right="3dp"
+        android:bottom="3dp"
+        android:top="3dp">
+        <shape >
+            <!-- 设置边框内的颜色 -->
+            <solid android:color="?colorOnSecondary"/>
+            <!-- 设置四角弧度 -->
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+</layer-list>

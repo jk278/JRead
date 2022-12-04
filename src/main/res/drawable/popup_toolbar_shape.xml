@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="10dp"
+        android:top="8dp">
+        <shape >
+            <solid android:color="?colorSurface"/>
+            <corners android:topLeftRadius="20dp"
+                android:topRightRadius="20dp"/>
+        </shape>
+    </item>
+    <item android:height="2dp"
+        android:bottom="8dp"
+        android:gravity="bottom">
+        <shape >
+            <!-- 设置边框内的颜色 -->
+            <solid android:color="?colorOnSecondary"/>
+            <!-- 设置组件边框 stroke android:width="0dp"-->
+        </shape>
+    </item>
+    <!-- 设置边框内的颜色 solid android:color="?colorOnSecondary"-->
+    <!-- 设置组件边框 stroke android:width="0dp"-->
+    <!-- 设置四角弧度 corners android:radius="50dp"-->
+</layer-list>

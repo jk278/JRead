@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 设置边框内的颜色 -->
+    <solid android:color="?android:windowBackground"/>
+    <!-- 设置组件边框 -->
+    <!--stroke android:width="0dp" android:color="?colorPrimary"/-->
+    <!-- 设置四角弧度 -->
+    <!-- 设置内部padding -->
+</shape>

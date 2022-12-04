@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">阅</string>
+    <string name="slider_header">最近文章</string>
+    <string name="set_ui">设置界面</string>
+    <string name="drawer_open">打开侧边栏</string>
+    <string name="drawer_close">关闭侧边栏</string>
+    <string name="about_us">关于我们</string>
+    <string name="about_us_details">
+        \u3000元婴瓶颈，马上飞升。
+        \u3000若有建议，欢迎联系。\n\n
+        \u3000 邮箱：\n
+        g1169861954@gmail.com\n\n
+        \u3000内容来源：\n
+        meiriyiwen.com\n
+        m.dushu.com/meiwen\n\n
+        \u3000使用开源项目：
+        org.jsoup:jsoup
+    </string>
+    <string name="font_size">字号</string>
+    <string name="line_space">行距</string>
+    <string name="block_space">段距</string>
+    <string name="letter_space">字距</string>
+    <string name="margin_horizontal">边距</string>
+    <string name="choose_theme">主题</string>
+    <string name="size_xs">极小</string>
+    <string name="size_s">小</string>
+    <string name="size_m">中</string>
+    <string name="size_l">大</string>
+    <string name="size_xl">巨</string>
+    <string name="theme1">增强</string>
+    <string name="theme2">柔和</string>
+    <string name="theme3">适中</string>
+    <string name="help">帮助</string>
+    <string name="help_details">
+        \u3000\u3000我今年必走大运。
+    </string>
+    <string name="float_action_button">悬浮操作按钮</string>
+    <string name="first_tip">点击标题或下滑更新内容</string>
+    <string name="slider_right_header">文章来源</string>
+    <string name="more_historical_article">更多历史文章</string>
+    <string name="more">更多</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="slider_image_description">这是一个图片</string>
+    <string name="source_article">文章来源</string>
+    <string name="source_setting">来源管理</string>
+    <string name="back">返回</string>
+    <string name="source_add_manual">添加来源</string>
+    <string name="source_add_auto">网络导入</string>
+    <string name="source_add_local">本地导入</string>
+    <string name="input_hint_name">"  输入名称"</string>
+    <string name="input_hint_uri">"  来源网址"</string>
+    <string name="input_hint_rule">"  解析规则"</string>
+    <string name="input_hint_auto">"  规则网址"</string>
+    <string name="source_ensure">内容预览</string>
+    <string name="ensure">确认</string>
+    <string name="cancel">取消</string>
+    <string name="toImport">导入</string>
+    <string name="info">\u3000 1. 规则来自jsoup，说明：\n
+        https://jsoup.org/cookbook/extracting-data/selector-syntax\n
+        jsoup官方测试站：https://try.jsoup.org/\n
+        \u3000 2. 固定格式：5个分号，分成六段。其分别表示：
+        正文的选择、排除，标题的，作者的。分段内的规则用逗号隔开。\n
+        \u3000 3. 无规则可留空，实际内容标题不允许为空。选择、排除皆为空，则选择全部。\n
+        \u3000 4. 坑比较多，如果没有必要，我们不建议您自己钻研。\n
+    </string>
+    <string name="html">html</string>
+    <string name="local">本地</string>
+    <string name="title_editor">Editor</string>
+    <string name="title">标题</string>
+    <string name="header">开启头图</string>
+    <string name="more_article">显示更多历史</string>
+    <string name="source">创建</string>
+
+</resources>

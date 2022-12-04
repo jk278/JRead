@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyActionBarTheme" parent="ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <!-- 设置 menu more 图标颜色 -->
+        <item name="android:textColorPrimary">?android:textColor</item>
+    </style>
+
+    <style name="MyPopupTheme" parent="ThemeOverlay.AppCompat.DayNight">
+        <!-- 是否覆盖锚点 -->
+        <item name="overlapAnchor">false</item>
+        <!-- 垂直下降距离 -->
+        <item name="android:dropDownVerticalOffset">?attr/actionBarSize</item>
+        <!-- 设置 menu 背景 -->
+        <item name="popupMenuBackground">@drawable/menu_shape</item>
+        <!-- toolbar no title 但是居中有点变化，有待确认，怎么是 popup theme? -->
+        <!--item name="windowActionBar">false</item-->
+    </style>
+
+    <style name="popupWindowAnim" parent="android:Animation">
+
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+
+    <style name="text_collapsed_expanded">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/pure</item>
+    </style>
+    <style name="text_collapsed">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>

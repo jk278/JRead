@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="@dimen/missing_bottom_toolbar"
+        android:gravity="bottom">
+        <shape >
+            <!-- 设置边框内的颜色 -->
+            <solid android:color="?colorSurface"/>
+            <!-- 设置组件边框 stroke android:width="0dp"-->
+            <!-- 设置四角弧度 corners android:radius="50dp"-->
+        </shape>
+    </item>
+<!-- 设置边框内的颜色 solid android:color="?colorOnSecondary"-->
+<!-- 设置组件边框 stroke android:width="0dp"-->
+<!-- 设置四角弧度 corners android:radius="50dp"-->
+</layer-list>
